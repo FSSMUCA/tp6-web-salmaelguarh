@@ -24,7 +24,6 @@
     <h2>Informations du Module</h2>
 
     <?php
-    // Variables
     $etablissement = "Institut Supérieur de Technologie";
     $module = "Développement Web";
     $annee = 2024;
@@ -34,8 +33,6 @@
 
     $addition = $a + $b;
     $multiplication = $a * $b;
-
-    // Affichage
     echo "<p><strong>Établissement :</strong> $etablissement</p>";
     echo "<p><strong>Module :</strong> $module</p>";
     echo "<p><strong>Année :</strong> $annee</p>";

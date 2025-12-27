@@ -13,7 +13,6 @@ form.addEventListener("submit", function(e) {
 
     error.textContent = "";
 
-    // Validation
     if (a === "" || b === "" || op === "") {
         error.textContent = "Tous les champs sont obligatoires.";
         return;
